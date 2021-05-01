@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -35,11 +40,6 @@ p {
     background-repeat: no-repeat;
 }
 
-section {
-    height: 500px;
-    padding-bottom: 150px;
-}
-
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
@@ -53,10 +53,11 @@ section {
     background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
     background-position-x: right;
+    background-position-y: center;
 }
 
 .single-experience {
-    box-shadow: 10px 10px 40px gray ;
+    box-shadow: 5px 7px 40px grey;
     border-radius: 5px;
     height: 80%;
     background-color: white;
